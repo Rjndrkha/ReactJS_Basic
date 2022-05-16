@@ -34,9 +34,15 @@ function ProductInfo() {
         <p class="Info">
           Sepatu Off White Limited Edition
         </p>
+        <a onClick={TambahCart()} href="">Add To Cart</a>
 
       </div>
+      
     </div>
   );
+}
+
+function TambahCart(){
+  console.log("Membeli Product ....");
 }
 export default App;
